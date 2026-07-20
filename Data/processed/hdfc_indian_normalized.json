@@ -1,0 +1,121 @@
+{
+    "bank": "HDFC Bank",
+    "loan_name": "Education Loan for Indian Education",
+    "category": "Education Loan",
+    "sub_category": "Indian Education",
+    "loan_amount": {
+        "maximum": "₹1.5 crore",
+        "without_collateral": "₹50 lakh"
+    },
+    "interest_rate": {
+        "type": "Fixed",
+        "starting_from": "10.50% p.a."
+    },
+    "loan_tenure": "1 years",
+    "collateral": [
+        "Fixed Deposit",
+        "Insurance Policy",
+        "Mutual Fund",
+        "NSC/KVP"
+    ],
+    "moratorium": "“Moratorium” shall mean (1) Course Period + 1 year or 6 months after getting Job, whichever is earlier; (2) as stipulated by Bank (as mentioned in the Schedule Cum Key Fact sheet)",
+    "eligibility": [
+        "Wondering if you’re eligible?",
+        "Basic Requirements",
+        "Nationality: Indian",
+        "Nationality:",
+        "Age: Between 16 and 35 years",
+        "Age:",
+        "Program and Admission Criteria",
+        "Co-applicant required for all full-time courses (co-applicant could be parent/guardian, or spouse/parent-in-law",
+        "Admission secured via Entrance Test or Merit",
+        "Courses: Graduate/PG degrees, diplomas by recognised UGC/ Government/ AICTE/ AIBMS/ ICMR etc"
+    ],
+    "documents": {
+        "identity": [
+            "KYC Documents",
+            "Identity Proof"
+        ],
+        "address": [
+            "Residence Proof"
+        ],
+        "academic": [
+            "Age Proof",
+            "Signature Proof",
+            "Income Documents",
+            "Latest 2 Salary Slips",
+            "Latest 6 months' bank statement",
+            "Last 2 years' ITR for self employed",
+            "Last 2 years' audited balance sheet",
+            "Last 6 months' bank statement",
+            "Completed Application Form",
+            "Latest Photograph (Signed Across)"
+        ]
+    },
+    "fees": {
+        "processing_fee": "Nil up to ₹7.5 lakh, otherwise 1%",
+        "legal_charges": "At actual",
+        "delayed_payment": "Interest on overdue installment",
+        "cheque_swap": "NIL"
+    },
+    "benefits": [
+        "Loan up to ₹1.5 crore",
+        "Up to ₹50 lakh without collateral",
+        "Direct disbursement to institution",
+        "Transparent process",
+        "Minimal documentation",
+        "Pocket-friendly EMI",
+        "Tax benefit under Section 80E",
+        "Insurance protection available"
+    ],
+    "covered_courses": [
+        "Graduate Degree",
+        "Postgraduate Degree",
+        "Diploma"
+    ],
+    "expenses_covered": [
+        "Tuition Fees",
+        "Accommodation",
+        "Educational Expenses"
+    ],
+    "application_process": [
+        "How to Apply for an Education Loan?",
+        "You can apply for an Education Loan for Indian Education by following these steps:",
+        "Step 1: Register on the online portal",
+        "Step 1:",
+        "Step 2: Fill the Common Education Loan Application Form (CELAF)",
+        "Step 2:",
+        "Step 3: Explore various loan schemes offered by different banks. (You can apply to a maximum of three banks through the portal)",
+        "Step 3:",
+        "Step 4: Track your application status online",
+        "Step 4:"
+    ],
+    "faq": [
+        {
+            "question": "wondering if you’re eligible?",
+            "answer": "Wondering if you’re eligible? Basic Requirements Nationality: Indian Nationality: Age: Between 16 and 35 years Age: Program and Admission Criteria Co-applicant required for all full-time courses (co-applicant could be parent/guardian, or spouse/parent-in-law Admission secured via Entrance Test or Merit Courses: Graduate/PG degrees, diplomas by recognised UGC/ Government/ AICTE/ AIBMS/ ICMR etc"
+        },
+        {
+            "question": "how does an education loan work?",
+            "answer": "How does an Education Loan Work? HDFC Bank provides education loans with flexible repayment options and competitive interest rates. Students can apply for loans to cover tuition fees, accommodation, and other educational expenses. The loan application process is streamlined, requiring minimal documentation and providing quick approval"
+        },
+        {
+            "question": "how to apply for an education loan?",
+            "answer": "How to Apply for an Education Loan? You can apply for an Education Loan for Indian Education by following these steps: Step 1: Register on the online portal Step 1: Step 2: Fill the Common Education Loan Application Form (CELAF) Step 2: Step 3: Explore various loan schemes offered by different banks. (You can apply to a maximum of three banks through the portal) Step 3: Step 4: Track your application status online Step 4:"
+        },
+        {
+            "question": "is it ok to take a loan for education?",
+            "answer": "Is it ok to take a Loan For Education? A Loan for Education can be a viable option to invest in your future, especially if it helps you pursue valuable opportunities. However, it's essential to consider factors like interest rates, repayment terms, and potential future income to ensure it's a manageable and beneficial financial decision for you"
+        },
+        {
+            "question": "how to repay an education loan?",
+            "answer": "How to repay an Education Loan? To repay a Learning Loan, start by understanding your loan terms and establishing a budget. Make timely monthly payments to avoid penalties. Consider options like automatic payments and refinancing for better terms. Prioritise loan repayment while managing other expenses. Communicate with your education financing lender for any assistance or adjustments needed"
+        },
+        {
+            "question": "is an education loan interest-free?",
+            "answer": "Is an Education Loan interest-free? HDFC Bank's Higher Education Loans are not interest-free; they carry interest rates starting from 10.50% p.a Secure your future—apply now for an education loan today! Apply Now"
+        }
+    ],
+    "source_url": "https://www.hdfc.bank.in/education-loan",
+    "last_updated": "2026-07-02"
+}

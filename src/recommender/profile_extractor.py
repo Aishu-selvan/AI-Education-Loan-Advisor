@@ -1,0 +1,170 @@
+import re
+
+COUNTRIES = [
+    "usa",
+    "united states",
+    "uk",
+    "canada",
+    "germany",
+    "australia",
+    "france",
+    "japan",
+    "singapore"
+]
+
+INDIAN_CITIES = [
+    "chennai",
+    "bangalore",
+    "bengaluru",
+    "hyderabad",
+    "mumbai",
+    "delhi",
+    "pune",
+    "kolkata",
+    "coimbatore",
+    "madurai",
+    "tiruvannamalai",
+    "trichy",
+    "salem",
+    "vellore"
+]
+
+COURSES = [
+    "ms",
+    "mba",
+    "btech",
+    "mtech",
+    "phd",
+    "mbbs",
+    "engineering"
+]
+
+
+def extract_profile(text):
+
+    text_lower = text.lower()
+
+    # IMPORTANT:
+    # Keep everything as None.
+    # Profile memory will fill in missing values.
+    profile = {
+        "course": None,
+        "study_location": None,
+        "study_type": None,
+        "loan_amount": None,
+        "family_income": None
+    }
+
+    # ------------------------
+    # Course
+    # ------------------------
+
+    for course in COURSES:
+
+        if course in text_lower:
+
+            profile["course"] = course.upper()
+
+            break
+    
+    for city in INDIAN_CITIES:
+
+        if city in text_lower:
+
+            profile["study_location"] = city.title()
+            profile["study_type"] = "domestic"
+            break
+
+
+    # ------------------------
+    # Country
+    # ------------------------
+
+    for country in COUNTRIES:
+
+        if country in text_lower:
+
+            profile["study_location"] = country.title()
+
+            profile["study_type"] = "abroad"
+
+            break
+
+    # ------------------------
+    # Domestic Study
+    # ------------------------
+
+    if (
+        "india" in text_lower
+        or "indian" in text_lower
+    ):
+
+        profile["study_location"] = "India"
+
+        profile["study_type"] = "domestic"
+
+    # ------------------------
+    # Loan Amount
+    # Examples:
+    # Need 50 lakh loan
+    # Loan of 40 lakh
+    # Borrow 30 lakh
+    # ------------------------
+
+    loan_match = re.search(
+        r"(need|loan|borrow|require).*?(\d+(?:\.\d+)?)\s*lakh",
+        text_lower
+    )
+
+    if loan_match:
+
+        profile["loan_amount"] = (
+            float(loan_match.group(2))
+            * 100000
+        )
+
+    crore_match = re.search(
+        r"(need|loan|borrow|require).*?(\d+(?:\.\d+)?)\s*crore",
+        text_lower
+    )
+
+    if crore_match:
+
+        profile["loan_amount"] = (
+            float(crore_match.group(2))
+            * 10000000
+        )
+
+    # ------------------------
+    # Family Income
+    # Examples:
+    # Family income is 8 lakh
+    # Income 4 lakh
+    # Annual income 6 lakh
+    # ------------------------
+
+    income_match = re.search(
+        r"(family income|annual income|income).*?(\d+(?:\.\d+)?)\s*lakh",
+        text_lower
+    )
+
+    if income_match:
+
+        profile["family_income"] = (
+            float(income_match.group(2))
+            * 100000
+        )
+
+    income_crore = re.search(
+        r"(family income|annual income|income).*?(\d+(?:\.\d+)?)\s*crore",
+        text_lower
+    )
+
+    if income_crore:
+
+        profile["family_income"] = (
+            float(income_crore.group(2))
+            * 10000000
+        )
+
+    return profile

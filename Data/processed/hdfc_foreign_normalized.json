@@ -1,0 +1,111 @@
+{
+    "bank": "HDFC Bank",
+    "loan_name": "Foreign Education Loan",
+    "category": "Education Loan",
+    "sub_category": "Foreign Education",
+    "loan_amount": {
+        "unsecured": "₹75 lakh",
+        "secured": "No upper limit"
+    },
+    "interest_rate": {
+        "type": "Floating",
+        "formula": "CBLR + Spread"
+    },
+    "loan_tenure": "14 years",
+    "collateral": [
+        "Fixed Deposit",
+        "House",
+        "Insurance Policy",
+        "Mutual Fund",
+        "NSC/KVP"
+    ],
+    "moratorium": "It refers to the course period plus one year or six months after securing a job, whichever comes first; as specified by the bank (as in the Schedule Cum Key Fact sheet)",
+    "eligibility": [
+        "The following criteria determines your eligibility:",
+        "Borrower must be an Indian citizen",
+        "Co-applicants must be an Indian citizen",
+        "Ability to offer collateral for certain cases",
+        "Co-borrower(s) must have a bank account in any bank in India with cheque writing facilities",
+        "Confirmed admission in the colleges before disbursement",
+        "Borrower and Co‐applicant(s) to meet Credila Financial Services Limited credit and underwriting norms as applicable from time to time",
+        "*Conditions apply. All Education Loans from Credila Financial Services Limited. Credit at sole discretion of Credila Financial Services Limited"
+    ],
+    "documents": {
+        "identity": [
+            "PAN Card",
+            "Passport",
+            "Driving Licence",
+            "Aadhaar Card",
+            "Voter ID Card"
+        ],
+        "address": [
+            "Address Proof"
+        ],
+        "academic": [
+            "Marksheet/Certificate of 12th Exam",
+            "Marksheet/Certificate of Subsequent Years of Education e.g. BE, BCom, BSc, etc",
+            "Marksheet of Any Entrance Exam Taken e.g. CAT, CET, etc. (If applicable)",
+            "GRE/GMAT/TOEFL/IELTS, etc. Marksheets (If applicable)"
+        ]
+    },
+    "fees": {
+        "prepayment": "Pre-payment charges: NIL",
+        "noc": "No Objection Certificate (NOC): NIL",
+        "delayed_payment": "Delayed Payment Charges *: @ 2 % per month of instalment ( MI/PMII)+ applicable taxes thereon",
+        "cheque_swap": "Cheque or ACH mandate or Direct Debit swapping charges*: Up to ₹500/- per swap instance plus applicable taxes thereon"
+    },
+    "benefits": [
+        "Range of Institutions",
+        "Coverage for over 2100 universities across 35+ countries. 950 courses covered, including",
+        "Executive Management Courses (Working Executives)",
+        "MS",
+        "MBA",
+        "MBBS/MD – Only India Colleges",
+        "All Other Courses – Cases to Case Basis",
+        "Effortless Funding Effortless Funding Up to 100% of other expenses including living and hostel expenses, travelling expenses, examination fees, library/laboratory fees; purchase of books / equipment's/instruments/uniforms; passage money for studies into India; purchase of computers / laptops considered necessary for completion of the course as decided by Credila financial services limited",
+        "Note: Travel fare restricted to one economy class return ticket between India and the country of study",
+        "Easy EMIs Repay your loan through pocket-friendly EMIs",
+        "Processing & Approval",
+        "Transparent process without any hidden fees",
+        "Minimal documents required for loan processing",
+        "Funds are credited directly to an institution's account based on the fee structure"
+    ],
+    "covered_courses": [
+        "MS",
+        "MBA",
+        "MBBS/MD – Only India Colleges",
+        "Executive Management Courses (Working Executives)",
+        "All Other Courses – Cases to Case Basis"
+    ],
+    "expenses_covered": [
+        "With a Foreign Education Loan, give your children the best education money can buy. Get 100% finance for a wide range of courses covering a variety of costs at competitive interest rates. All of the tuition fees as determined by the college/University",
+        "Up to 100% of other expenses including living and hostel expenses, travelling expenses, examination fees, library/laboratory fees; purchase of books / equipment's/instruments/uniforms; passage money for studies into India; purchase of computers / laptops considered necessary for completion of the course as decided by Credila Financial Services Limited. Travel fare restricted to one economy class return ticket between India and the country of study"
+    ],
+    "application_process": [
+        "You can apply for an Overseas Education Loan by following these steps:",
+        "Step 1: Register on the online portal",
+        "Step 2: Fill the Common Education Loan Application Form (CELAF)",
+        "Step 3: Explore various loan schemes offered by different banks. (You can apply to a maximum of three banks through the portal)",
+        "Step 4: Track your application status online"
+    ],
+    "faq": [
+        {
+            "question": "wondering if you are eligible?",
+            "answer": "The following criteria determines your eligibility: Borrower must be an Indian citizen Co-applicants must be an Indian citizen Ability to offer collateral for certain cases Co-borrower(s) must have a bank account in any bank in India with cheque writing facilities Confirmed admission in the colleges before disbursement Borrower and Co‐applicant(s) to meet Credila Financial Services Limited credit and underwriting norms as applicable from time to time *Conditions apply. All Education Loans from Credila Financial Services Limited. Credit at sole discretion of Credila Financial Services Limited"
+        },
+        {
+            "question": "what is a foreign education loan?",
+            "answer": "A Foreign Education Loan is a financial product that helps students cover the costs of studying abroad"
+        },
+        {
+            "question": "what expenses can be covered by a foreign education loan?",
+            "answer": "A Foreign Education Loan Scheme can cover tuition fees, living expenses, travel, insurance, and other study-related costs; specific coverage may vary by lender"
+        },
+        {
+            "question": "what are the repayment terms for a foreign education loan?",
+            "answer": "HDFC Bank offers a repayment tenure of up to 14 years for Foreign Education Loans, including the moratorium period. Secure your future—apply now for an education loan today!"
+        }
+    ],
+    "source_url": "https://www.hdfc.bank.in/education-loan/foreign-education",
+    "last_updated": "2026-07-01"
+}

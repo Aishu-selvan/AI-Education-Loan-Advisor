@@ -1,0 +1,186 @@
+{
+    "bank": "ICICI Bank",
+    "loan_name": "Education Loan",
+    "category": "Education Loan",
+    "sub_category": "Domestic & International",
+    "loan_amount": {
+        "maximum": "₹3 crore",
+        "without_collateral": "₹1 crore"
+    },
+    "interest_rate": {
+        "type": "",
+        "starting_from": ""
+    },
+    "loan_tenure": "15 years",
+    "collateral": [
+        "Property",
+        "Fixed Deposit",
+        "Existing ICICI Bank Home Loan",
+        "Mortgage Loan"
+    ],
+    "moratorium": "",
+    "eligibility": [
+        "Nationality: Indian",
+        "Age: Minimum: 16 years, Maximum: 65 years at the time of loan closure (on a case-by-case basis)",
+        "Academic record: Proven good academic performance",
+        "Qualification: Completed 10+2 (12th standard) or a Diploma",
+        "For pursuing: Graduation or Postgraduate Degree or Postgraduate Diploma in Professional Education",
+        "University applied to: Listed, recognised and accredited institutes (India and Overseas)",
+        "Loan sanction based on: Pre-admission sanction, entrance exam scores (Graduate Record Examinations (GRE), Graduate Management Admission Test (GMAT), etc.), 12 th or Higher Secondary Certificate (H.S.C.) results, confirmed admission",
+        "Loan Amount: Domestic and international studies up to ₹3 crore",
+        "Co-applicant: Father, Mother, Brother, Sister, Spouse (Husband or Wife), Grandparents, Parents-in-Law, Maternal or Paternal Uncle",
+        "Security: Property (house or flat), Fixed Deposit, existing ICICI Bank Home Loan for cross-collateral."
+    ],
+    "documents": {
+        "identity": [
+            "Aadhaar Card",
+            "Voter ID",
+            "Driving Licence"
+        ],
+        "address": [
+            "Current Address Proof"
+        ],
+        "academic": [
+            "Marksheets",
+            "Degree Certificate",
+            "Entrance Scores",
+            "Admission Letter",
+            "Confirmation of Acceptance",
+            "I20",
+            "Salary Slip",
+            "Bank Statement",
+            "ITR",
+            "GST Documents"
+        ]
+    },
+    "fees": {
+        "processing_fee": "",
+        "legal_charges": "",
+        "delayed_payment": "",
+        "cheque_swap": ""
+    },
+    "benefits": [
+        "Loan up to ₹3 crore",
+        "Flexible repayment options",
+        "Pre-admission sanction",
+        "No foreclosure charges",
+        "Competitive interest rates",
+        "Zero margin for selected institutes",
+        "Wide network for loan servicing",
+        "Instant Education Loan",
+        "Loan tenure up to 15 years",
+        "Zero TCS"
+    ],
+    "covered_courses": [
+        "Graduation",
+        "Postgraduate Degree",
+        "Postgraduate Diploma",
+        "Professional Education",
+        "PhD"
+    ],
+    "expenses_covered": [
+        "Tuition Fees",
+        "Hostel Fees",
+        "Examination Fees",
+        "Library Fees",
+        "Laboratory Fees",
+        "Insurance Premium",
+        "Travel Expenses",
+        "Books",
+        "Computer",
+        "Uniform",
+        "Project Expenses",
+        "Study Tour"
+    ],
+    "application_process": [
+        "Scan the QR Code and enter the basic details",
+        "Application submission",
+        "Document submission",
+        "Loan assessment",
+        "Sanction letter, disbursement"
+    ],
+    "faq": [
+        {
+            "question": "What is an Education Loan?",
+            "answer": "An Education Loan helps students fund academic expenses such as tuition fees, books, travel, accommodation, and other study-related costs. ICICI Bank offers loans for domestic and international studies with competitive interest rates and flexible repayment options. Learn more: Education Loan"
+        },
+        {
+            "question": "Who can apply for an Education Loan?",
+            "answer": "Any Indian citizen who has secured confirmed admission to a recognised institution in India or abroad is eligible to apply."
+        },
+        {
+            "question": "What is the interest rate of an Education Loan?",
+            "answer": "Interest rates vary based on the type of loan (secured or unsecured), applicant or co-applicant’s profile, institute or college category and type of course."
+        },
+        {
+            "question": "What expenses does an ICICI Bank Education Loan cover?",
+            "answer": "The loan covers tuition fees, travel, examination charges, hostel fees, study materials and other education-related expenses for both domestic and international studies."
+        },
+        {
+            "question": "What are the benefits of choosing an Education Loan from ICICI Bank?",
+            "answer": "ICICI Bank Education Loans offer competitive interest rates, easy repayment options, high loan amounts, instant approvals and more. ICICI Bank also offers doorstep document pickup and online approvals that save your time, making the process smooth and convenient."
+        },
+        {
+            "question": "What expenses are covered?",
+            "answer": "The loan covers tuition fees, exam fees, books, laptop (if required), travel tickets, living expenses, and hostel charges."
+        },
+        {
+            "question": "Is the loan available for foreign studies?",
+            "answer": "Yes. ICICI Bank provides loans for undergraduate, postgraduate, professional, and PhD programmes abroad."
+        },
+        {
+            "question": "How long does it take for ICICI Bank to process an Education Loan application?",
+            "answer": "The ICICI Bank Education Loan processing time can be a few working days after all required documents are submitted. For existing customers, it may be quicker. Delays mostly happen when papers are missing or need verification."
+        },
+        {
+            "question": "What is the ICICI Bank Education Loan disbursement process?",
+            "answer": "The ICICI Bank Education Loan disbursement process begins after all required documents, signatures and bank formalities are completed. This includes submission of admission letters, hard copies and financial documents. Customers can visit the nearest branch or coordinate with their designated relationship manager."
+        },
+        {
+            "question": "Can I take a second Education Loan if my first loan is still active?",
+            "answer": "A second Education Loan may be considered if eligibility criteria are met, co-applicant profile, and total exposure limits as per ICICI Bank norms."
+        },
+        {
+            "question": "What does employment verification in an Education Loan mean?",
+            "answer": "Employment verification involves confirming applicant and co-applicant employment status, income, EPFO account, and financial stability to assess repayment capability for the Education Loan."
+        },
+        {
+            "question": "What should students review and compare when evaluating an Education Loan?",
+            "answer": "Student should compare the interest rate, loan amount, repayment tenure, principal moratorium period, processing fee, foreclosure flexibility, tax benefit availability under Section 80E, collateral requirement, and whether the loan is available for India or abroad studies. These factors help evaluate the overall suitability and repayment burden of an Education Loan."
+        },
+        {
+            "question": "What are the eligibility norms for Education Loans based on academic profile?",
+            "answer": "ICICI Bank states that any Indian citizen who has secured confirmed admission to a recognised institution in India or abroad is eligible to apply for an Education Loan. The bank also notes that interest rates and loan assessment may vary based on the applicant profile, institute category, and type of course. A strong academic record and admission to a recognised institution can support the overall loan assessment."
+        },
+        {
+            "question": "How are admission and fee details checked during an Education Loan process?",
+            "answer": "ICICI Bank’s Education Loan guidance requires admission-related documents and the fee structure from the institution as part of the application process. These documents help the bank review the course, institution, and amount required for funding. Students should make sure that the admission letter and fee details are clear, current, and match the course they are applying for."
+        },
+        {
+            "question": "How does prior credit history of applicant influence eligibility?",
+            "answer": "The applicant’s prior credit history can influence Education Loan eligibility because ICICI Bank considers the applicant and co-applicant profile while assessing the loan. A stronger credit history can support faster approval, better loan terms, and a smoother assessment process. A weaker credit profile may affect approval, loan amount, or require additional support such as a stronger co-applicant or collateral. Checking your credit report, paying dues on time, and avoiding multiple loan applications can help improve eligibility before you apply."
+        },
+        {
+            "question": "How can students improve their education loan eligibility after an initial rejection?",
+            "answer": "If your Education Loan eligibility is initially weak or your application is not approved, you can improve your profile by strengthening the co-applicant details, ensuring all required documents are complete, and improving your credit profile before applying again. ICICI Bank’s guidance also supports using a recognised course and institution, maintaining a good academic record, and providing collateral where applicable. Paying existing dues on time, checking your credit report, and avoiding multiple loan applications can also help improve eligibility."
+        },
+        {
+            "question": "Does ICICI Bank offer special Education Loan support for students going to top-ranked universities abroad?",
+            "answer": "ICICI Bank states that Education Loan terms depend on factors such as the course, institute category, applicant and co-applicant profile, and loan type. Students admitted to recognised foreign institutions should check their eligibility and applicable loan terms based on these factors when applying."
+        },
+        {
+            "question": "What ICICI Bank Education Loan options can students review besides the instant Education Loan?",
+            "answer": "Students can review both standard ICICI Bank Education Loan options and the Instant Education Loan journey depending on their profile, course, institute, and documentation readiness. Comparing loan amount, covered expenses, tenure, and repayment structure can help identify the more suitable option."
+        },
+        {
+            "question": "How can I get a loan sanction letter for admission purposes?",
+            "answer": "ICICI Bank highlights the availability of a pre-admission sanction letter under its Education Loan offering. Students can begin the Education Loan process by sharing their academic and basic application details even before final admission is completed, subject to the applicable journey and assessment. A sanction letter can help students plan admissions and funding requirements more confidently."
+        },
+        {
+            "question": "What is an Education Loan?",
+            "answer": "An Education Loan helps students fund academic expenses such as tuition fees, books, travel, accommodation, and other study-related costs. ICICI Bank offers loans for domestic and international studies with competitive interest rates and flexible repayment options. Learn more: Education Loan"
+        }
+    ],
+    "source_url": "https://www.icici.bank.in/personal-banking/loans/education-loan",
+    "last_updated": "2026-07-03"
+}

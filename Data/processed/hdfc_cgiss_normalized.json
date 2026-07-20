@@ -1,0 +1,151 @@
+{
+    "bank": "HDFC Bank",
+    "loan_name": "Central Government Interest Subsidy Scheme",
+    "category": "Education Loan",
+    "sub_category": "Government Interest Subsidy",
+    "product_type": "Subsidy Scheme",
+    "loan_amount": {
+        "maximum": "₹10 lakh",
+        "without_collateral": "₹7.5 lakh"
+    },
+    "interest_rate": {
+        "actual_rate": "As per linked education loan",
+        "subsidy": "100% interest subsidy",
+        "effective_interest_during_moratorium": "0%"
+    },
+    "subsidy": {
+        "available": true,
+        "scheme": "Central Government Interest Subsidy Scheme",
+        "coverage": "Full interest subsidy",
+        "period": "Moratorium period",
+        "income_limit": "All students whose annual family income from all sources does not exceed ₹4.5 lakh per annum are eligible. This scheme is open to students seeking to pursue Technical/Professional courses in institutes accredited by NAAC, NBA, CFTI, or approved by regulatory bodies in India. The List of eligible Technical/Professional courses is available on the below websites:",
+        "applicable_amount": "Education loan up to ₹10 lakh"
+    },
+    "income_criteria": {
+        "family_income": "All students whose annual family income from all sources does not exceed ₹4.5 lakh per annum are eligible. This scheme is open to students seeking to pursue Technical/Professional courses in institutes accredited by NAAC, NBA, CFTI, or approved by regulatory bodies in India. The List of eligible Technical/Professional courses is available on the below websites:"
+    },
+    "loan_tenure": {
+        "duration": "Repayments start after your course or one-year post-completion, whichever is later",
+        "note": "Tenure depends on underlying education loan"
+    },
+    "repayment": {
+        "start": "",
+        "moratorium": "Approval and Disbursement: The loan will be disbursed upon approval, and the interest subsidy will be applied during the moratorium period",
+        "maximum_tenure": "Repayments start after your course or one-year post-completion, whichever is later"
+    },
+    "collateral": {
+        "required": null,
+        "note": "Collateral depends on underlying education loan"
+    },
+    "study_location": {
+        "india": true,
+        "abroad": false
+    },
+    "eligibility": [
+        "Promotes higher education by easing financial burdens on underprivileged students",
+        "Offers interest subsidies to make education loans affordable for eligible students",
+        "The moratorium period offers a repayment holiday during your course and beyond",
+        "Repayments start after your course or one-year post-completion, whichever is later",
+        "*Moratorium period is also called repayment holiday. You need not start repaying during the duration of the course and for one year after completion or six months after completion if you get a job",
+        "Only for education loan from Scheduled Banks for approved courses",
+        "Education loan from Scheduled Banks for approved courses",
+        "Applicable for students from Economically Weaker Sections",
+        "Annual family income must not exceed ₹4.50 lakh",
+        "Income Certificate issued by authorised state/UT officer under the program",
+        "Subsidy Coverage: Full interest subsidy on the loan amount during the moratorium period (course duration plus one year or six months after getting a job, whichever is earlier)",
+        "Eligibility: Students from economically weaker sections (EWS) with a gross annual parental income of up to ₹4.5 lakh",
+        "Courses Covered: Professional and technical courses in recognizsed institutions in India",
+        "Courses Covered:",
+        "Financial Relief: Reduces the financial burden on students from EWS by covering interest during the moratorium period",
+        "Encourages Higher Education: Promotes higher education among economically weaker sections, enabling students to pursue professional and technical courses",
+        "Career Advancement: This program helps students complete their education without immediate financial pressure, allowing them to focus on career growth after graduation",
+        "Documentation: Submit necessary documents, including proof of admission, income certificate (to verify EWS status), identity proof, and address proof",
+        "Eligibility Check: Ensure that you meet the scheme's eligibility criteria (EWS status and course requirements)",
+        "This CSIS Scheme for Education Loan offers interest subsidies to students from the Economically Weaker Section (EWS) category who are pursuing professional/technical courses in India. It applies to all Scheduled Banks associated with the current Model Educational Loan",
+        "Under the CGFSEL, the Central Government provides guarantee for Education loans obtained by students, without requiring any collateral security or third-party guarantee, up to a maximum loan limit of ₹7.5 lakh",
+        "All students whose annual family income from all sources does not exceed ₹4.5 lakh per annum are eligible. This scheme is open to students seeking to pursue Technical/Professional courses in institutes accredited by NAAC, NBA, CFTI, or approved by regulatory bodies in India. The List of eligible Technical/Professional courses is available on the below websites:",
+        "News Room",
+        "Pre-approved Personal Loan",
+        "Pre-approved Business Loan",
+        "IndianOil HDFC Bank Credit Card"
+    ],
+    "documents": {
+        "identity": [
+            "Identity proof",
+            "Election/Voter's card",
+            "Valid Passport",
+            "Aadhaar Card",
+            "Documentation: Submit necessary documents, including proof of admission, income certificate (to verify EWS status), identity proof, and address proof"
+        ],
+        "address": [
+            "Address Proof"
+        ],
+        "academic": [],
+        "income": [
+            "Income Certificate issued by authorised state/UT officer under the program"
+        ]
+    },
+    "fees": {},
+    "benefits": [
+        "Government interest subsidy benefit",
+        "Supports higher education",
+        "No interest burden during moratorium"
+    ],
+    "covered_courses": [
+        "Technical Courses",
+        "Professional Courses"
+    ],
+    "expenses_covered": [
+        "Interest during moratorium period"
+    ],
+    "application_process": [
+        "How to apply for the CSIS Scheme?",
+        "To apply for the HDFC Bank CSIS Scheme:",
+        "Loan Application: Visit the nearest HDFC Bank branch or apply online for an education loan",
+        "Loan Application:",
+        "Documentation: Submit necessary documents, including proof of admission, income certificate (to verify EWS status), identity proof, and address proof",
+        "Documentation:",
+        "Eligibility Check: Ensure that you meet the scheme's eligibility criteria (EWS status and course requirements)",
+        "Eligibility Check:",
+        "Subsidy Application: Indicate your interest in the CSIS Scheme during the loan application process",
+        "Subsidy Application:",
+        "Verification: The bank will verify the submitted documents and eligibility",
+        "Verification:",
+        "Approval and Disbursement: The loan will be disbursed upon approval, and the interest subsidy will be applied during the moratorium period",
+        "Approval and Disbursement:"
+    ],
+    "faq": [
+        {
+            "question": "what is cgiss?",
+            "answer": "Interest benefit Introduced by the Department of Education and the Ministry of Human Resource Development Promotes higher education by easing financial burdens on underprivileged students Offers interest subsidies to make education loans affordable for eligible students Reflects government efforts to ensure equal educational opportunities nationwide"
+        },
+        {
+            "question": "how to apply for the csis scheme?",
+            "answer": "How to apply for the CSIS Scheme? To apply for the HDFC Bank CSIS Scheme: Loan Application: Visit the nearest HDFC Bank branch or apply online for an education loan Loan Application: Documentation: Submit necessary documents, including proof of admission, income certificate (to verify EWS status), identity proof, and address proof Documentation: Eligibility Check: Ensure that you meet the scheme's eligibility criteria (EWS status and course requirements) Eligibility Check: Subsidy Application: Indicate your interest in the CSIS Scheme during the loan application process Subsidy Application: Verification: The bank will verify the submitted documents and eligibility Verification: Approval and Disbursement: The loan will be disbursed upon approval, and the interest subsidy will be applied during the moratorium period Approval and Disbursement:"
+        },
+        {
+            "question": "what is the csis scheme?",
+            "answer": "What is the CSIS scheme? This CSIS Scheme for Education Loan offers interest subsidies to students from the Economically Weaker Section (EWS) category who are pursuing professional/technical courses in India. It applies to all Scheduled Banks associated with the current Model Educational Loan"
+        },
+        {
+            "question": "what is the maximum amount of csis education loan?",
+            "answer": "What is the maximum amount of CSIS Education Loan? Under the CGFSEL, the Central Government provides guarantee for Education loans obtained by students, without requiring any collateral security or third-party guarantee, up to a maximum loan limit of ₹7.5 lakh"
+        },
+        {
+            "question": "how do i claim my education loan subsidy?",
+            "answer": "How do I claim my Education Loan subsidy? All students whose annual family income from all sources does not exceed ₹4.5 lakh per annum are eligible. This scheme is open to students seeking to pursue Technical/Professional courses in institutes accredited by NAAC, NBA, CFTI, or approved by regulatory bodies in India. The List of eligible Technical/Professional courses is available on the below websites: https://www.nbaind.org/accreditationprogram/AccreditedProgram https://www.mhrd.gov.in/technical-education-1 https://www.mhrd.gov.in/institutions-national-importance http://www.naac.gov.in/ Secure your future—apply now for the scheme today! Apply Now"
+        }
+    ],
+    "metadata": {
+        "is_actual_loan": false,
+        "linked_product": "Education Loan",
+        "keywords": [
+            "CGISS",
+            "interest subsidy",
+            "government education loan",
+            "EWS education loan"
+        ]
+    },
+    "source_url": "https://www.hdfc.bank.in/education-loan/central-government-interest-subsidy-scheme?icid=website_organic_listcards_choosetherighteducationloanforyourfuture:link:knowmore",
+    "last_updated": "2026-07-10"
+}
