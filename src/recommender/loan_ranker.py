@@ -20,7 +20,6 @@ from .feature_scoring import (
     specialization_bonus
 )
 
-
 def calculate_score(profile, loan):
 
     persona = detect_persona(profile)
