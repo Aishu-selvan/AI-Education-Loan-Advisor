@@ -1,4 +1,9 @@
+
 import re
+
+# -----------------------------------------
+# Countries
+# -----------------------------------------
 
 COUNTRIES = [
     "usa",
@@ -11,6 +16,10 @@ COUNTRIES = [
     "japan",
     "singapore"
 ]
+
+# -----------------------------------------
+# Indian Cities
+# -----------------------------------------
 
 INDIAN_CITIES = [
     "chennai",
@@ -29,6 +38,10 @@ INDIAN_CITIES = [
     "vellore"
 ]
 
+# -----------------------------------------
+# Courses
+# -----------------------------------------
+
 COURSES = [
     "ms",
     "mba",
@@ -36,8 +49,71 @@ COURSES = [
     "mtech",
     "phd",
     "mbbs",
-    "engineering"
+    "engineering",
+    "graduate",
+    "postgraduate",
+    "diploma"
 ]
+
+# -----------------------------------------
+# Premium Institutes
+# -----------------------------------------
+
+PREMIUM_INSTITUTES = [
+    "iit",
+    "iim",
+    "nit",
+    "bits",
+    "isb",
+    "mit",
+    "stanford",
+    "oxford",
+    "cambridge"
+]
+
+# -----------------------------------------
+# Expense Keywords
+# -----------------------------------------
+
+EXPENSES = [
+    "tuition",
+    "hostel",
+    "accommodation",
+    "living",
+    "travel",
+    "books",
+    "laptop",
+    "computer",
+    "insurance",
+    "project",
+    "library",
+    "laboratory",
+    "lab",
+    "study tour"
+]
+
+# -----------------------------------------
+# Collateral Keywords
+# -----------------------------------------
+
+NO_COLLATERAL = [
+    "no collateral",
+    "without collateral",
+    "dont have collateral",
+    "don't have collateral",
+    "no security",
+    "without security"
+]
+
+HAS_COLLATERAL = [
+    "property",
+    "house",
+    "land",
+    "fixed deposit",
+    "fd",
+    "insurance policy"
+]
+
 
 
 def extract_profile(text):
@@ -48,12 +124,26 @@ def extract_profile(text):
     # Keep everything as None.
     # Profile memory will fill in missing values.
     profile = {
-        "course": None,
-        "study_location": None,
-        "study_type": None,
-        "loan_amount": None,
-        "family_income": None
-    }
+
+    "course": None,
+
+    "study_location": None,
+
+    "study_type": None,
+
+    "loan_amount": None,
+
+    "family_income": None,
+
+    "has_collateral": None,
+
+    "required_expenses": [],
+
+    "profile_tier": "premium",
+
+    "admission_status": None
+
+}
 
     # ------------------------
     # Course
@@ -75,6 +165,29 @@ def extract_profile(text):
             profile["study_type"] = "domestic"
             break
 
+# -----------------------------------------
+# Required Expenses
+# -----------------------------------------
+
+    for expense in EXPENSES:
+
+        if expense in text_lower:
+
+            profile["required_expenses"].append(
+                expense
+            )
+
+# -----------------------------------------
+# Premium Institute
+# -----------------------------------------
+
+    for institute in PREMIUM_INSTITUTES:
+
+        if institute in text_lower:
+
+            profile["profile_tier"] = "premium"
+            break
+
 
     # ------------------------
     # Country
@@ -89,6 +202,28 @@ def extract_profile(text):
             profile["study_type"] = "abroad"
 
             break
+
+
+# -----------------------------------------
+# Admission Status
+# -----------------------------------------
+
+    if any(word in text_lower for word in [
+        "got admission",
+        "confirmed admission",
+        "offer letter",
+        "admitted"
+    ]):
+
+        profile["admission_status"] = "confirmed"
+
+    elif any(word in text_lower for word in [
+        "planning",
+        "will apply",
+        "want to apply"
+    ]):
+
+        profile["admission_status"] = "planning"
 
     # ------------------------
     # Domestic Study

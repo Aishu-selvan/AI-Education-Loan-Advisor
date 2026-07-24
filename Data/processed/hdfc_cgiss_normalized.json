@@ -24,10 +24,11 @@
     "income_criteria": {
         "family_income": "All students whose annual family income from all sources does not exceed ₹4.5 lakh per annum are eligible. This scheme is open to students seeking to pursue Technical/Professional courses in institutes accredited by NAAC, NBA, CFTI, or approved by regulatory bodies in India. The List of eligible Technical/Professional courses is available on the below websites:"
     },
-    "loan_tenure": {
-        "duration": "Repayments start after your course or one-year post-completion, whichever is later",
-        "note": "Tenure depends on underlying education loan"
-    },
+    
+    "loan_tenure": "Course period + 1 year",
+    "loan_tenure_type": "Moratorium based",
+    "loan_tenure_note": "Repayment starts after course completion or one year later. Tenure depends on the linked education loan.",
+    
     "repayment": {
         "start": "",
         "moratorium": "Approval and Disbursement: The loan will be disbursed upon approval, and the interest subsidy will be applied during the moratorium period",

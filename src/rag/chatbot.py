@@ -65,11 +65,14 @@ def ask_advisor(question):
     profile = update_profile(new_profile)
 
 
-    ranked = rank_loans(
-        profile,
-        loans
-    )
-    
+    result = rank_loans(profile, loans)
+
+    ranked = result["ranked_loans"]
+
+    eligible_subsidies = result["eligible_subsidies"]
+
+
+        
 
 
 # ----------------------------
@@ -104,7 +107,7 @@ def ask_advisor(question):
 
         context += f"""
     
-    
+
 
 Bank:
 {loan['bank']}
@@ -122,7 +125,31 @@ Loan Details:
 
 {json.dumps(loan, indent=2)}
 
+
+
 """
+
+
+    if eligible_subsidies:
+
+        context += "\n===== ELIGIBLE SUBSIDIES =====\n\n"
+
+        for subsidy in eligible_subsidies:
+
+            context += f"""
+    Bank:
+    {subsidy["bank"]}
+
+    Scheme:
+    {subsidy["loan_name"]}
+
+    {subsidy.get("benefits", [])}
+
+-------------------------------------
+"""
+            
+
+
 
     prompt = f"""
 
@@ -173,3 +200,20 @@ Do not invent information.
     response = llm.invoke(prompt)
 
     return response.content
+
+
+if __name__ == "__main__":
+    print("=== AI Education Loan Advisor ===")
+    print("Type 'exit' to quit.\n")
+
+    while True:
+        question = input("You: ")
+
+        if question.lower() in ["exit", "quit"]:
+            print("Goodbye!")
+            break
+
+        answer = ask_advisor(question)
+        print("\nAdvisor:\n")
+        print(answer)
+        print("-" * 60)

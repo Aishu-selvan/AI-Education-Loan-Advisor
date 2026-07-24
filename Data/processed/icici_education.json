@@ -8,9 +8,10 @@
         "without_collateral": "₹1 crore"
     },
     "interest_rate": {
-        "type": "",
-        "starting_from": ""
-    },
+    "starting_from": null,
+    "status": "profile_based",
+    "scoring": "neutral"
+},
     "loan_tenure": "15 years",
     "collateral": [
         "Property",
@@ -18,7 +19,9 @@
         "Existing ICICI Bank Home Loan",
         "Mortgage Loan"
     ],
-    "moratorium": "",
+    "moratorium": {
+    "status":"not_disclosed"
+    },
     "eligibility": [
         "Nationality: Indian",
         "Age: Minimum: 16 years, Maximum: 65 years at the time of loan closure (on a case-by-case basis)",
@@ -54,10 +57,10 @@
         ]
     },
     "fees": {
-        "processing_fee": "",
-        "legal_charges": "",
-        "delayed_payment": "",
-        "cheque_swap": ""
+        "processing_fee": "Not disclosed on official website",
+        "legal_charges": "Not disclosed on official website",
+        "delayed_payment": "Not disclosed on official website",
+        "cheque_swap": "Not disclosed on official website"
     },
     "benefits": [
         "Loan up to ₹3 crore",
