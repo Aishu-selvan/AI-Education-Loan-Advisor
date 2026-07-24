@@ -6,6 +6,15 @@ Unlike traditional rule-based systems, this project focuses on **student fitness
 
 ---
 
+## 🚀 Live Demo
+
+🔗 **Streamlit App**
+
+https://ai-education-loan-advisor-8tadiyyy5ckn6udl3wcia8.streamlit.app/
+
+---
+
+
 ## Features
 
 - AI-powered education loan recommendation
