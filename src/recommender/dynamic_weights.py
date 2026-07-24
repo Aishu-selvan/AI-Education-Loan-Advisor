@@ -1,12 +1,3 @@
-"""
-Dynamic Weights
-
-Each student persona values different loan features.
-
-This file only returns feature weights.
-
-No scoring happens here.
-"""
 
 # --------------------------------------------------
 # Default Weights
