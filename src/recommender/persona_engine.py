@@ -1,18 +1,3 @@
-"""
-Persona Engine
-
-This module identifies the student's borrowing persona.
-
-The persona is later used to
-
-1. Select scoring weights
-2. Select candidate loans
-3. Personalize recommendations
-
-No scoring happens here.
-"""
-
-
 def detect_persona(profile):
     """
     Returns one of:
