@@ -1,25 +1,3 @@
-"""
-Candidate Loan Filter
-
-This module removes loans that are not
-relevant to the student's profile.
-
-Example
-
-Foreign student
-
-↓
-
-Compare
-
-HDFC Foreign
-ICICI Education
-
-NOT
-
-HDFC Indian
-CGISS
-"""
 
 
 def detect_loan_category(loan):
