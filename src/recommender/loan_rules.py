@@ -1,11 +1,4 @@
-"""
-Loan Recommendation Rules
 
-This file contains all configurable business rules.
-
-No recommendation logic should be hardcoded
-inside the scoring engine.
-"""
 
 # ==========================================================
 # PERSONA THRESHOLDS
